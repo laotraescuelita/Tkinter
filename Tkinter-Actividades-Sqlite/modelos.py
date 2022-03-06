@@ -1,6 +1,6 @@
 import sqlite3
 
-conn = sqlite3.connect("base.db")
+conn = sqlite3.connect("nombredelabasededatos.db")
 cursor = conn.cursor()
 
 cursor.execute("""CREATE TABLE IF NOT EXISTS actividades
